@@ -1,0 +1,10 @@
+int blue = 0;
+void setup()
+{
+    pinMode(blue, output);
+}
+
+void loop()
+{
+    digitalWrite(blue, high);
+}
